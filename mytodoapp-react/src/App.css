@@ -1,0 +1,22 @@
+.App{
+  position: absolute;
+  left: 20rem;
+
+}
+.heading{position: relative;
+  top: 12px;
+  left: 10px;
+}
+.inputdiv{
+  position: relative;
+  left: 10px;
+}
+ul{
+  list-style: none;
+}
+.bi-pencil-square{
+  padding:4px;
+  
+}
+
+
