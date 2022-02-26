@@ -102,14 +102,14 @@ function Todolist() {
               <i
                 className="bi bi-trash"
                 onClick={() => {
-                  setitem(item.filter((cvalue) =>{ 
-                      
+                  setitem(item.filter((cvalue) => {
+
                     //   console.log(cvalue)
                     //   console.log(el.id)
 
                     return cvalue.id !== el.id;
-                
-                }));
+
+                  }));
                 }}
               ></i>
             </li>
